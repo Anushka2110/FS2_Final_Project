@@ -1,0 +1,73 @@
+extends layout
+
+block content 
+  // Header with full-height image
+  header#home.bgimg-1.w3-display-container.w3-grayscale-min
+    .w3-display-left.w3-text-white(style='padding:48px')
+      span.w3-jumbo.w3-hide-small Be creative
+      br
+      span.w3-xxlarge.w3-hide-large.w3-hide-medium Imagine then Actualize
+      br
+      span.w3-large Stop accepting stories that just aren't you, write yours
+      p
+        a.w3-button.w3-white.w3-padding-large.w3-large.w3-margin-top.w3-opacity.w3-hover-opacity-off(href='#about') Learn more and start today
+  // About Section
+  #about.w3-container(style='padding:128px 16px')
+    h3.w3-center ABOUT THE COMPANY
+    p.w3-center.w3-large Key features
+    .w3-row-padding.w3-center(style='margin-top:64px')
+      .w3-quarter
+        i.fa.fa-desktop.w3-margin-bottom.w3-jumbo.w3-center
+        p.w3-large Responsive
+       
+      .w3-quarter
+        i.fa.fa-heart.w3-margin-bottom.w3-jumbo
+        p.w3-large Passion
+       
+      .w3-quarter
+        i.fa.fa-diamond.w3-margin-bottom.w3-jumbo
+        p.w3-large Design
+       
+      .w3-quarter
+        i.fa.fa-cog.w3-margin-bottom.w3-jumbo
+        p.w3-large Support
+        
+  // Team Section
+  #team.w3-container(style='padding:128px 16px')
+    h3.w3-center THE TEAM
+    p.w3-center.w3-large The ones who runs this company
+    .w3-row-padding.w3-grayscale(style='margin-top:64px')
+      .w3-col.l3.m6.w3-margin-bottom
+        .w3-card
+          img(src='/public/img/martha.jpg', alt='Anushka', style='width:100%')
+          .w3-container
+            h3 Anushka Aggarwal
+            p.w3-opacity CEO & Founder
+            p
+              | Student ID : 101195651 
+            p
+              button.w3-button.w3-light-grey.w3-block
+                i.fa.fa-envelope
+                |  Contact Email : anushka.aggarwal@georgebrown.ca
+      .w3-col.l3.m6.w3-margin-bottom
+        .w3-card
+          img(src='/public/img/john.jpg', alt='Karanjot', style='width:100%')
+          .w3-container
+            h3 Karanjot Singh
+            p.w3-opacity Creative  Director
+            p
+              | Student Id : 101195883
+            p
+              button.w3-button.w3-light-grey.w3-block
+                i.fa.fa-envelope
+                |  Contact Email : karanjot.-@georgebrown.ca
+      
+
+
+  //- a(href='/publication')
+  //-   h2  New publications 
+  
+  //- p  Welcome
+
+  
+  

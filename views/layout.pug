@@ -1,0 +1,60 @@
+doctype html
+head
+    title Be Creative | #{title}
+    meta(charset='utf-8')
+    link(rel="stylesheet" href="/css/style.css")
+    link(rel="stylesheet" href="/css/w3.css")
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Raleway')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    style.
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+        body, html {
+        height: 100%;
+        line-height: 1.8;
+        }
+        /* Full height image header */
+        .bgimg-1 {
+          background-position: center;
+          background-size: cover;
+          background-image: url("/w3images/mac.jpg");
+          min-height: 100%;
+          }
+          .w3-bar .w3-button {
+          padding: 16px;
+        }
+
+body
+  // Navbar (sit on top)
+  .w3-top
+    #myNavbar.w3-bar.w3-white.w3-card
+      a.w3-bar-item.w3-button.w3-wide(href="/") LOGO
+      // Right-sided navbar links
+      .w3-right.w3-hide-small
+        a.w3-bar-item.w3-button(href='#about') ABOUT
+        a.w3-bar-item.w3-button(href='#team')
+          i.fa.fa-user
+          |  TEAM
+        a.w3-bar-item.w3-button(href='/register')
+          i.fa.fa-th
+          |  REGISTER
+        a.w3-bar-item.w3-button(href='/login')
+          i.fa.fa-envelope
+          |  LOGIN
+      // Hide right-floated links on small screens and replace them with a menu icon
+      a.w3-bar-item.w3-button.w3-right.w3-hide-large.w3-hide-medium(href='javascript:void(0)', onclick='w3_open()')
+        i.fa.fa-bars
+      //- // Sidebar on small screens when clicking the menu icon
+      //- nav#mySidebar.w3-sidebar.w3-bar-block.w3-black.w3-card.w3-animate-left.w3-hide-medium.w3-hide-large(style='display:none')
+      //-   a.w3-bar-item.w3-button.w3-large.w3-padding-16(href='javascript:void(0)', onclick='w3_close()') Close ×
+      //-   a.w3-bar-item.w3-button(href="/", onclick='w3_close()') ABOUT
+      //-   a.w3-bar-item.w3-button(href='#team', onclick='w3_close()') TEAM
+      //-   a.w3-bar-item.w3-button(href='#work', onclick='w3_close()') WORK
+      //-   a.w3-bar-item.w3-button(href='#contact', onclick='w3_close()') CONTACT
+      
+
+
+    //- h1 
+    //-   a(href="/") Imagine it, write it      
+    //- hr
+    block content 

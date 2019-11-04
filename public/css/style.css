@@ -1,0 +1,12 @@
+body{
+    font-family: 'Helvetica', san-serif;
+}
+h1,span{
+    color:purple;
+}
+li{
+    list-style: none;
+    line-height: 30px;
+
+}
+

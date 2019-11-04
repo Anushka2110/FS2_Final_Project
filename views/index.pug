@@ -1,0 +1,17 @@
+extends layout
+
+block content  
+  
+    
+  a(href='/publication')
+    h2  New publications
+  ul
+    each publication in publications
+      //Native javascript on pug
+      -var content = publication.publication
+      -var author = publication.author
+      -var path = "/status/" + publication._id
+      a(href=path) 
+       li #{content}
+        
+  

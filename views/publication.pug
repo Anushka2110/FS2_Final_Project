@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  form(action="/publication", method="POST")
+    textarea.w3-input.w3-border(name="publication" placeholder="Publish something!")
+    br
+    button.w3-button.w3-black(type="submit")
+      i.fa.fa-paper-plane
+        |  Publish
