@@ -1,7 +1,7 @@
 # FS2_Final_Project
 <h2><br>TEAM MEMBERS : </h2>
 <br> 1.Anushka Aggarwal
-<br> Student ID : 101195651
+<br> Student ID : 101195651<br>
 <br>
 2.Karanjot Singh
 <br>Student ID : 101195883
